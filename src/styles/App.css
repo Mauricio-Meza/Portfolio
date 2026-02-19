@@ -1,9 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  
+
 }
 
 .logo {
@@ -12,9 +12,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -23,6 +25,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -43,6 +46,13 @@
 }
 
 section {
-  scroll-margin-top: 80px; /* Compensa la altura del menú al hacer scroll */
-  min-height: 90vh; /* Da altura a cada sección */
+  scroll-margin-top: 80px;
+  min-height: 90vh;
+  padding-top: 2rem;
+}
+
+footer {
+  padding: 2rem;
+  opacity: 0.8;
+
 }
