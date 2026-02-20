@@ -15,6 +15,14 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Mauricio-Meza/Calculadora-Web",
     demo: "https://calculadora-web-pink.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Portfolio",
+    description: "Portfolio Web personal en donde muestro mis habilidades, proyectos, y contacto.",
+    tech: ["React", "Vite", "JavaScript", "TailwindCSS"],
+    github: "https://github.com/Mauricio-Meza/Portfolio",
+    demo: "https://portfolio-mauricio-bay.vercel.app/"
   }
 ]
 

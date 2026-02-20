@@ -45,6 +45,13 @@ const translations = {
                 description: 'Calculadora web con operaciones básicas de matematicas.',
                 github: "https://github.com/Mauricio-Meza/Calculadora-Web",
                 demo: "https://calculadora-web-pink.vercel.app/"
+            },
+            {
+                id: 3,
+                title: 'Portafolio',
+                description: 'Portafolio Web personal en donde muestro mis habilidades, proyectos, y contacto.',
+                github: "https://github.com/Mauricio-Meza/Portfolio",
+                demo: "https://portfolio-mauricio-bay.vercel.app/"
             }
 
             ]
@@ -109,6 +116,13 @@ const translations = {
                     github: "https://github.com/Mauricio-Meza/Calculadora-Web",
                     demo: "https://calculadora-web-pink.vercel.app/"
                     
+                },
+                {
+                    id: 3,
+                    title: 'Portfolio',
+                    description: 'Personal portfolio web where I showcase my skills, projects, and contact.',
+                    github: "https://github.com/Mauricio-Meza/Portfolio",
+                    demo: "https://portfolio-mauricio-bay.vercel.app/"
                 }
             ]
         },
