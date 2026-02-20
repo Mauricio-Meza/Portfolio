@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import translations from './i18n/translations.js'
+import translations from './i18n/translations'
 import NavBar from './components/NavBar'
 
 import Home from './pages/Home'
