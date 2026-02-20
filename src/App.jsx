@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      <div className="bg-slate-200 dark:bg-slate-900 h-screen  flex flex-col overflow-x-hidden">
+      <div className="bg-slate-200 dark:bg-slate-900 h-screen flex flex-col overflow-x-hidden">
 
         <NavBar
           languaje={languaje}

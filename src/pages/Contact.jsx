@@ -33,13 +33,13 @@ export default function Contact({ t }) {
 
     return (
 
-        <section className="h-full flex justify-center items-center px-6 py-20 overflow-hidden ">
+        <section className=" h-full flex justify-center items-center px-6 py-20">
 
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className="  w-full max-w-xl  bg-white dark:bg-gray-700 text-gray-900  dark:text-white border-gray-200 dark:border-gray-700 rounded-2xl shadow-xl p-8"
+                className=" w-full max-w-xl mx-auto bg-white dark:bg-gray-700 text-gray-900  dark:text-white border-gray-200 dark:border-gray-700 rounded-2xl shadow-xl p-8"
 
             >
                 <h2 className="text-3xl font-bold  mb-2 text-center text-black ">
