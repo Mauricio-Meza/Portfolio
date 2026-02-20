@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      <div className="bg-slate-200 dark:bg-slate-900 h-screen  flex flex-col  ">
+      <div className="bg-slate-200 dark:bg-slate-900 h-screen  flex flex-col overflow-x-hidden">
 
         <NavBar
           languaje={languaje}
@@ -35,7 +35,7 @@ export default function App() {
           
         />
 
-        <main className=" flex-1  overflow-y-auto">
+        <main className="flex-1 overflow-y-auto ">
           <Routes>
             <Route path="/" element={<Home t={t} />} />
             <Route path="/about" element={<About t={t} />} />

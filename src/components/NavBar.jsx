@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaHome, FaUser, FaTools, FaCode, FaEnvelope } from "react-icons/fa";
 import { MdEmail, MdTranslate } from "react-icons/md"
 
 import DarkMode from "./DarkMode";
@@ -15,34 +16,40 @@ export default function NavBar({ languaje, setLanguaje, t }) {
 
   return (
     <nav className=" top-0 left-0 w-full h-16 z-50 bg-gray-700 dark:bg-gray-800/80 backdrop-blur">
-      <ul className="h-full flex justify-center items-center gap-8 py-4 font-medium text-gray-900 dark:text-white">
+      <ul className="h-full flex justify-center items-center gap-6 py-4 font-medium text-gray-900 dark:text-white">
 
         <li>
-          <NavLink to="/" className="hover:text-blue-500">
+          <NavLink to="/" className="hover:text-blue-500 flex items-center gap-2">
+            <FaHome size={20} />
             {t.nav.home}
+            
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/about" className="hover:text-blue-500">
+          <NavLink to="/about" className="hover:text-blue-500 flex items-center gap-2">
+          <FaUser size={20} />
             {t.nav.about}
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/skills" className="hover:text-blue-500">
+          <NavLink to="/skills" className="hover:text-blue-500 flex items-center gap-2">
+            <FaTools size={20} />
             {t.nav.skills}
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/projects" className="hover:text-blue-500">
+          <NavLink to="/projects" className="hover:text-blue-500 flex items-center gap-2">
+            <FaCode size={20} />
             {t.nav.projects}
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/contact" className="hover:text-blue-500">
+          <NavLink to="/contact" className="hover:text-blue-500 flex items-center gap-2 ">
+            <FaEnvelope size={20} />
             {t.nav.contact}
           </NavLink>
         </li>
