@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Home({ t }) {
   const navigate = useNavigate()
   return (
-    <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center text-center ">
+    <section className="flex-grow flex flex-col justify-center items-center text-center ">
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

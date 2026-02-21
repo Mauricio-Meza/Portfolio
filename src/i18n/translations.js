@@ -65,6 +65,7 @@ const translations = {
             message: 'Mensaje',
             submit: 'Enviar Mensaje'
         }
+        
 
     },
 

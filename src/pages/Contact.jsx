@@ -33,7 +33,7 @@ export default function Contact({ t }) {
 
     return (
 
-        <section className=" h-full flex justify-center items-center px-6 py-20">
+        <section className="h-full flex justify-center items-center py-6">
 
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
@@ -51,7 +51,7 @@ export default function Contact({ t }) {
 
                     <form
                         ref={form}
-                        className="mt-10 max-w-xl mx-auto flex flex-col gap-6"
+                        className="mt-8 max-w-xl mx-auto flex flex-col gap-4"
                         onSubmit={sendEmail}
 
                     >

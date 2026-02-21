@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import translations from './i18n/translations'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import About from './pages/About'
@@ -35,7 +36,7 @@ export default function App() {
           
         />
 
-        <main className="flex-1 overflow-y-auto ">
+        <main className="flex-1 flex flex-col overflow-y-auto">
           <Routes>
             <Route path="/" element={<Home t={t} />} />
             <Route path="/about" element={<About t={t} />} />
@@ -43,10 +44,11 @@ export default function App() {
             <Route path="/projects" element={<Projects t={t} />} />
             <Route path="/contact" element={<Contact t={t} />} />
 
-
+            
           </Routes>
 
         </main>
+        <Footer />
 
 
       </div>
