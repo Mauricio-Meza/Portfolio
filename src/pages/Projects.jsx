@@ -4,8 +4,8 @@ import { projects } from '../data/Projects'
 
 export default function Projects({ t }) {
   return (
-    <section className="flex justify-center items-center px-6 py-20">
-      <div className="max-w-6xl mx-auto">
+    <section className="flex justify-center items-center px-4 py-12">
+      <div className="max-w-6xl w-full mx-auto">
         <h2 className="text-3xl font-bold  mb-12 text-center">
            {t.projects.title}
         </h2>

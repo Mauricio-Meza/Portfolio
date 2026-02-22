@@ -27,7 +27,7 @@ export default function Skills({ t }) {
         </motion.div>
 
 
-        <div className="grid grid-cols-2 gap-6 p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
           <Card title="Frontend">
             <div className="flex p-6 gap-6 text-3xl justify-center">
               <SkillItem
@@ -61,7 +61,7 @@ export default function Skills({ t }) {
           </Card>
 
           <Card title="Backend">
-            <div className="flex p-6 gap-6 text-3xl justify-center">
+            <div className="flex flex-wrap p-3 md:p-6 gap-4 md:gap-6 text-3xl justify-center">
               <SkillItem
                 icon={<FaPython className="text-4x1 text-gray-400 group-hover:text-yellow-400 transition-colors duration-300"/>}
                 name="Python"
@@ -81,7 +81,7 @@ export default function Skills({ t }) {
           </Card>
 
           <Card title="Tools">
-            <div className="flex p-6 gap-6 text-3xl">
+            <div className="flex flex-wrap p-3 md:p-6 gap-4 md:gap-6 text-3xl justify-center">
               <SkillItem
                 icon={<FaGitAlt className="4x1 text-gray-400 group-hover:text-orange-500 transition-colors duration-300"/>}
                 name="Git"

@@ -33,13 +33,13 @@ export default function Contact({ t }) {
 
     return (
 
-        <section className="h-full flex justify-center items-center py-6">
+        <section className="h-full flex justify-center items-center px-4 py-6">
 
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className=" w-full max-w-xl mx-auto bg-white dark:bg-gray-700 text-gray-900  dark:text-white border-gray-200 dark:border-gray-700 rounded-2xl shadow-xl p-8"
+                className=" w-full max-w-xl mx-auto bg-white dark:bg-gray-700 text-gray-900  dark:text-white border-gray-200 dark:border-gray-700 rounded-2xl shadow-xl p-4 md:p-8"
 
             >
                 <h2 className="text-3xl font-bold  mb-2 text-center text-black ">
@@ -79,7 +79,7 @@ export default function Contact({ t }) {
 
                         />
 
-                        <button className="mt-6 self-start px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition">
+                        <button className="mt-6 self-center md:self-start px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition">
                             {t.contact.submit}
                         </button>
 

@@ -1,6 +1,4 @@
 
-
-
 import { motion } from "framer-motion";
 
 export default function About({ t }) {
@@ -8,9 +6,9 @@ export default function About({ t }) {
     return (
         <section
             id="about"
-            className="flex justify-center items-center px-6 py-20"
+            className="flex justify-center items-center px-4 md:px-6 py-20"
         >
-            <div className="max-w-5xl grid md:grid-cols-2 gap-12">
+            <div className=" w-full max-w-5xl grid md:grid-cols-2 gap-12">
 
                 {/* Texto */}
                 <motion.div

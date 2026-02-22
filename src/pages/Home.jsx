@@ -29,7 +29,7 @@ export default function Home({ t }) {
         {t.home.role}
       </motion.p>
 
-      <div className="mt-8 flex gap-4">
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           onClick={() => navigate("/projects")}
           href="#projects"
