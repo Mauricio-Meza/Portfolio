@@ -33,7 +33,7 @@ export default function Contact({ t }) {
 
     return (
 
-        <section className="h-full flex justify-center items-center px-4 py-6">
+        <section className="h-full w-full flex justify-center items-center px-4 py-6">
 
             <motion.div
                 initial={{ opacity: 0, x: -30 }}
