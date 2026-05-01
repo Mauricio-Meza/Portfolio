@@ -52,8 +52,14 @@ const translations = {
                 description: 'Portafolio Web personal en donde muestro mis habilidades, proyectos, y contacto.',
                 github: "https://github.com/Mauricio-Meza/Portfolio",
                 demo: "https://portfolio-mauricio-bay.vercel.app/"
+            },
+            {
+                id: 4,
+                title: "E-commerce",
+                description: "Aplicación de tienda online construida con React, JavaScript y Tailwind CSS, que integra una API externa de productos, manejo de estado global para el carrito, agregar a favoritos, filtrado por categorías y búsqueda dinámica.",
+                github: "https://github.com/Mauricio-Meza/store-global",
+                demo: "https://store-global.vercel.app/"
             }
-
             ]
 
 
@@ -65,7 +71,7 @@ const translations = {
             message: 'Mensaje',
             submit: 'Enviar Mensaje'
         }
-        
+
 
     },
 
@@ -108,7 +114,7 @@ const translations = {
                     title: 'Pokemon App',
                     description: 'Application to search and filter Pokémon using the PokeAPI.',
                     github: "https://github.com/Mauricio-Meza/pokemon-app",
-                     demo: "https://pokemon-app-86gx.vercel.app/"
+                    demo: "https://pokemon-app-86gx.vercel.app/"
                 },
                 {
                     id: 2,
@@ -116,7 +122,7 @@ const translations = {
                     description: 'Web calculator with basic math operations.',
                     github: "https://github.com/Mauricio-Meza/Calculadora-Web",
                     demo: "https://calculadora-web-pink.vercel.app/"
-                    
+
                 },
                 {
                     id: 3,
@@ -124,15 +130,22 @@ const translations = {
                     description: 'Personal portfolio web where I showcase my skills, projects, and contact.',
                     github: "https://github.com/Mauricio-Meza/Portfolio",
                     demo: "https://portfolio-mauricio-bay.vercel.app/"
+                },
+                {
+                    id: 4,
+                    title: "E-commerce",
+                    description: "Online store application built with React, JavaScript and Tailwind CSS, integrating an external product API, global state management for the cart, add to favorites, category filtering and dynamic search",
+                    github: "https://github.com/Mauricio-Meza/store-global",
+                    demo: "https://store-global.vercel.app/"
                 }
             ]
         },
         contact: {
-           title: 'Contact',
-           name: 'Name',
-           email: 'Email',
-           message: 'Message',
-           submit: 'Message Submit'
+            title: 'Contact',
+            name: 'Name',
+            email: 'Email',
+            message: 'Message',
+            submit: 'Message Submit'
         }
     },
 
