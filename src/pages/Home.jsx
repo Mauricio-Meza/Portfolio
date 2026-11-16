@@ -47,7 +47,8 @@ export default function Home({ t }) {
         </a>
         <a
          href="/Cv-Mauricio-Meza.pdf"
-         download
+         target="_blank"
+         rel="noopener noreferrer"
          className="px-6 py-3 bg-green-500 text-white rounded-xl transition hover:bg-green-700"
 
         >
